@@ -41,7 +41,7 @@ After minimal (or any other) Debian install (with grub), clone and execute -
 ```shell
 sudo apt install git
 git clone https://github.com/Senshi111/ubuntu-hyprland-hyprdots.git
-cd ~/debian-hyprland-hyprdots/build-and-install
+cd ~/ubuntu-hyprland-hyprdots/build-and-install
 ./install_all.sh
 ```
 
