@@ -1,0 +1,3 @@
+[submodule "build-hyprland-and-apps/tomlplusplus"]
+	path = build-hyprland-and-apps/tomlplusplus
+	url = https://github.com/marzer/tomlplusplus.git
