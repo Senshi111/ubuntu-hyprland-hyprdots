@@ -95,7 +95,8 @@ install_packages \
     wget \
     xdg-desktop-portal \
     xdg-desktop-portal-wlr \
-    xwayland
+    xwayland \
+    parallel  
   
 # Install dependencies for wlroots
 sudo apt-get build-dep wlroots
