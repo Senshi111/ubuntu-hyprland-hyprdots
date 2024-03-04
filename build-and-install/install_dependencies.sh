@@ -98,7 +98,8 @@ install_packages \
     xwayland \
     parallel \
     liblz4-dev \
-    qtwayland5
+    qtwayland5 \
+    libgtk-3-dev 
   
 # Install dependencies for wlroots
 sudo apt-get build-dep wlroots
