@@ -101,7 +101,7 @@ install_packages \
     qtwayland5 \
     libgtk-3-dev \
     libtomlplusplus-dev \
-    libtomlplusplus3
+    
   
 # Install dependencies for wlroots
 sudo apt-get build-dep wlroots
