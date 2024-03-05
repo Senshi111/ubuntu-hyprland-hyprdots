@@ -64,9 +64,7 @@ if lspci -k | grep -A 2 -E "(VGA|3D)" | grep -iq nvidia; then
 fi
 
 # Build Hyprland using Meson and Ninja
-meson build
-ninja -C build
-sudo ninja -C build install
+make all && sudo make install
 
 # Return to the previous directory
 cd ..
