@@ -1,5 +1,7 @@
 #!/bin/bash
-
+# Add the Papirus PPA repository
+sudo add-apt-repository -y ppa:papirus/papirus
+sudo apt update
 # Function to install packages
 install_packages() {
     sudo apt install -y "$@"
@@ -33,7 +35,9 @@ install_packages \
     pavucontrol \
     pamixer \
     qt5-style-kvantum \
+    qt6-style-kvantum \
     qt5ct \
+    qt6ct \
     kitty \
     neofetch \
     dolphin \
