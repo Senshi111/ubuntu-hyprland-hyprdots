@@ -10,6 +10,7 @@ install_packages() {
 # Install required packages
 install_packages \
     build-essential \
+    cava \
     cmake \
     cmake-extras \
     curl \
