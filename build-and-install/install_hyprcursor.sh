@@ -26,3 +26,4 @@ sudo cmake --install ./build
 
 echo "Installation completed successfully."
 
+cd ..
