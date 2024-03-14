@@ -1,6 +1,14 @@
 #!/bin/bash
+
+sudo apt install apt-transport-https wget curl gpg software-properties-common ca-certificates gnupg2 -y
+
 # Add the Papirus PPA repository
 sudo add-apt-repository -y ppa:papirus/papirus
+
+#vscode
+wget -O- https://packages.microsoft.com/keys/microsoft.asc | sudo gpg --dearmor | sudo tee /usr/share/keyrings/vscode.gpg
+echo deb [arch=amd64 signed-by=/usr/share/keyrings/vscode.gpg] https://packages.microsoft.com/repos/vscode stable main | sudo tee /etc/apt/sources.list.d/vscode.list
+
 sudo apt update
 # Function to install packages
 install_packages() {
@@ -50,4 +58,5 @@ install_packages \
     libpipewire-0.3-dev \
     libinih-dev \
     ffmpegthumbs \
-    sddm
+    sddm \
+    code
