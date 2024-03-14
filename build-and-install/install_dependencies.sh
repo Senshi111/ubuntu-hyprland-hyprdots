@@ -58,7 +58,6 @@ install_packages \
     libsystemd-dev \
     libtiff-dev \
     libtiffxx6 \
-    libtomlplusplus3 \
     libudev-dev \
     libvulkan-dev \
     libvulkan-volk-dev \
