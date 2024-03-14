@@ -77,6 +77,9 @@ install_packages \
     libxkbregistry-dev \
     libxml2-dev \
     libxxhash-dev \
+    libzip-dev \
+    librsvg2-dev \
+    libwayland-dev \
     meson \
     ninja-build \
     psmisc \
