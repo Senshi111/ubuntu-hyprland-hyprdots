@@ -4,6 +4,7 @@
 ./install_dependencies.sh
 ./install_apps.sh
 #./install_tomlplusplus.sh
+./install_hyprcursor.sh
 ./install_hyprlang.sh
 ./install_hyprland.sh
 ./install_rust.sh
