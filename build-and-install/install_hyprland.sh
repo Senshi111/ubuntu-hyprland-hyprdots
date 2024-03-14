@@ -29,7 +29,7 @@ add_to_grub() {
 }
 
 # Clone and build Hyprland
-git clone --recursive https://github.com/hyprwm/Hyprland
+git clone --recursive https://github.com/hyprwm/Hyprland -b v0.36.0
 cd Hyprland || exit
 
 # Check if an NVIDIA GPU is present
