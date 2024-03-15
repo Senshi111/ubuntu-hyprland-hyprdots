@@ -93,6 +93,7 @@ install_packages \
     qt6-base-dev \
     scdoc \
     seatd \
+    sdbus-cpp \
     spirv-tools \
     swaylock \
     waybar \
