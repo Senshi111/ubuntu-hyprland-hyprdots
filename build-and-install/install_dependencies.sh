@@ -82,6 +82,7 @@ install_packages \
     librsvg2-dev \
     libwayland-dev \
     lm-sensors \
+    libwlroots-dev \
     meson \
     ninja-build \
     psmisc \
